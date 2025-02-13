@@ -1,0 +1,22 @@
+# Archivos de configuración y dependencias
+recordatorio_config.txt
+requirements.txt
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de PyInstaller
+build/
+dist/
+*.spec
+
+# Entornos virtuales
+venv/
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
