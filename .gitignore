@@ -1,22 +1,22 @@
-# Archivos de configuración y dependencias
-recordatorio_config.txt
-requirements.txt
-
-# Archivos compilados de Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Archivos de PyInstaller
-build/
-dist/
-*.spec
-
-# Entornos virtuales
+# Archivos de entorno
 venv/
-.env
+*.env
 
-# Archivos del sistema
+# Archivos de configuración del editor (por ejemplo, Visual Studio Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Archivos generados por Python
+*.pyc
+__pycache__/
+
+# Archivos de log
+*.log
+
+# Archivos temporales
+*.swp
+*.bak
+
+# Archivos específicos del sistema operativo
 .DS_Store
 Thumbs.db
